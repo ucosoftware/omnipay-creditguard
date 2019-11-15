@@ -1,0 +1,25 @@
+{
+    "name": "rbator/omnipay-creditguard",
+    "type": "library",
+    "description": "CreditGuard gateway for Omnipay payment processing library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bator.rybdylov",
+            "email": "bator.rybdylov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\CreditGuard\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3",
+        "phpro/grumphp": "^0.14"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
